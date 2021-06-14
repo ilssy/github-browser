@@ -1,11 +1,15 @@
 <template>
-  <div>Hello World</div>
+  <UserSearch />
 </template>
 
 <script>
+import UserSearch from "./components/UserSearch.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    UserSearch,
+  },
 };
 </script>
 
